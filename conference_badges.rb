@@ -26,7 +26,9 @@ end
     # To make this test pass, make sure you are iterating through your badges and room assignments lists.
 
 def printer(attendees)
-  assign_rooms(attendees)
-   batch_badge_creator.each
+  
+  
+  
+  
   
 end 
