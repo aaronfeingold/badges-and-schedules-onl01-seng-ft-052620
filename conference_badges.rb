@@ -17,3 +17,7 @@ def assign_rooms(attendees)
   index =+ 1
   room_assignments
 end
+
+def printer(attendees)
+  puts batch_badge_creator
+end 
