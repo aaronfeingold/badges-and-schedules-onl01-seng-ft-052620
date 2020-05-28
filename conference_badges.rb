@@ -11,8 +11,8 @@ end
 
 index = 0
 def assign_rooms(attendees, room)
-  room_badges = []
+  room_assignments = []
 attendees.each_with_index { |name, index| room_badges << "Hello, #{name}! You'll be assigned to room #{index}"}
   index += 1
-  room_badges
+  room_assignments
 end
