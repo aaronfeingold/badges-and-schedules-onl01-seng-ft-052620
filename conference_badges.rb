@@ -20,8 +20,13 @@ def assign_rooms(attendees)
   room_assignments
 end
 
+# Question 4
+    # The method `printer` should output first the results of the batch_badge_creator method and then of the assign_rooms method to the screen - this way you can output
+    # the badges and room assignments one at a time.
+    # To make this test pass, make sure you are iterating through your badges and room assignments lists.
 
 def printer(attendees)
-  puts batch_badge_creator(attendees).each
-  puts assign_rooms(attendes).each 
+  index = 0 
+  puts batch_badge_creator.each
+  index += 1
 end 
