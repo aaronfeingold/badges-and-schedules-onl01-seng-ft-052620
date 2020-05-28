@@ -10,3 +10,5 @@ def batch_badge_creator(attendees)
 end
 
 def
+
+end
