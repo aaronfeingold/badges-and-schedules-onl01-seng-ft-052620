@@ -26,9 +26,9 @@ end
     # To make this test pass, make sure you are iterating through your badges and room assignments lists.
 
 def printer(attendees)
-  puts batch_badge_creator(attendees).collect
-  puts assign_rooms(attendees).collect
-  
-  
-
+  index = 0 
+  what_to_print = []
+  batch_badge_creator(attendees).each { |name| what_to_print << "#{name}" }
+  assign_rooms(attendees).collect { |room| what_to_print << "#{room}" }
+  puts what_to_print
 end 
