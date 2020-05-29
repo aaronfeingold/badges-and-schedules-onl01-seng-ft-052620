@@ -30,5 +30,6 @@ def printer(attendees)
   what_to_print = []
   batch_badge_creator(attendees).each { |name| what_to_print << "#{name}" }
   assign_rooms(attendees).collect { |room| what_to_print << "#{room}" }
+  index += 1 
   puts what_to_print
 end 
