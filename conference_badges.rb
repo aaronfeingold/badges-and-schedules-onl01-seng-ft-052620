@@ -31,5 +31,5 @@ def printer(attendees)
   batch_badge_creator(attendees).each { |name| what_to_print << "#{name}" }
   assign_rooms(attendees).collect { |room| what_to_print << "#{room}" }
   index += 1 
-  puts what_to_print
+  puts what_to_print.each 
 end 
